@@ -1,0 +1,33 @@
+# Pipeline e Workflow
+workflow-aggregator:latest
+pipeline-stage-view:latest
+pipeline-graph-view:latest
+
+# Git
+git:latest
+github:latest
+github-branch-source:latest
+
+# Docker
+docker-workflow:latest
+docker-plugin:latest
+
+# Credenciais e Segurança
+credentials:latest
+credentials-binding:latest
+ssh-credentials:latest
+
+# UI e Qualidade de Vida
+blueocean:latest
+locale:latest
+dark-theme:latest
+
+# Métricas e Monitoramento
+prometheus:latest
+metrics:latest
+
+# Notificações
+mailer:latest
+
+# Kubernetes
+kubernetes-cli:latest
