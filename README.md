@@ -78,7 +78,7 @@ ci-cd/
 │   └── provisioning/
 │       └── datasources/
 │           └── datasource.yml            # Auto-configures Prometheus in Grafana
-└── PIPELINE.md                           # This document
+└── README.md                             # This document
 ```
 
 ---
