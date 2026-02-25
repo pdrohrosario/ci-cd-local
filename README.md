@@ -1,4 +1,4 @@
-# 🚀 Local CI/CD Pipeline — Complete Documentation
+# 🚀 Local CI/CD Pipeline
 
 ## Table of Contents
 
