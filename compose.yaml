@@ -22,6 +22,9 @@ services:
       start_period: 60s
     networks:
       - ci-cd-network
+      - kind
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     restart: always
 
   registry:
@@ -91,6 +94,8 @@ services:
 networks:
   ci-cd-network:
     driver: bridge
+  kind:
+    external: true
 
 volumes:
   jenkins_home:
